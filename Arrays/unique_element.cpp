@@ -5,6 +5,7 @@ using namespace std;
 
 int findunique(vector<int> arr)
 {
+
     int ans = 0;
     for (int i = 0; i < arr.size(); i++)
     {
@@ -17,7 +18,7 @@ int findunique(vector<int> arr)
 int main()
 {
     int n;
-    cout << "Enter the size of array:" << endl;
+    cout << "Enter the size of array: " << endl;
     cin >> n;
 
     vector<int> arr(n);
